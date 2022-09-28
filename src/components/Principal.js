@@ -111,7 +111,7 @@ export const Principal = (props) => {
       <div className="Informacion">
         <h4 className="fecha-principal">
           {d.toDateString()} {props.values.temperatureAvg}°{"C"}
-          {wC.weatherCodeFullDay[props.values.weatherCodeFullDay]}
+          {"  " + wC.weatherCodeFullDay[props.values.weatherCodeFullDay]}
         </h4>
 
         <div className="Info">
